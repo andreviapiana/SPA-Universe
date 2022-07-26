@@ -1,0 +1,152 @@
+/* ============================== RESET ============================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ============================== VARIÁVEIS ============================== */
+:root {
+    /* FONT SIZES */
+    font-size: 62.5%;
+}
+
+/* ============================== BODY ============================== */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+.backgroundHome {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.backgroundUniverse {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.backgroundExploration {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* ============================== MAIN ============================== */
+.page {
+    max-width: 128rem;
+    height: 100%;
+    margin: auto;
+    max-width: 128rem;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    margin: auto;
+    padding: 4rem 7.2rem 4rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    color: #C4C4CC;
+}
+
+nav a:hover {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 6rem;
+    color: #E1E1E6;
+}
+
+p {
+    width: 64.8rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 2.88rem;
+}
+
+.hide {
+    display: none;
+}
+
+/* ============================== HOME ============================== */
+.home {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 2.4rem;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+}
+
+.home button {
+    display: flex;
+    width: 20rem;
+    height: 4.8rem;
+    justify-content: center;
+    align-items: center;
+
+
+
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: white;
+
+    background: transparent;
+
+}
+
+.home button:hover {
+    background: #FFFFFF;
+    color: #02799D;
+}
+
+/* ============================== UNIVERSE ============================== */
+.universe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    align-items: left;
+    padding: 6.3rem 10.2rem;
+}
+
+/* ============================== EXPLORATION ============================== */
+.exploration {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    align-items: left;
+    padding: 6.3rem 10.2rem;
+}
